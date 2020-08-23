@@ -101,9 +101,10 @@ video{
 
 .footer li{
   float: left;
-  width: 25%;
+  width: 20%;
   text-align: center;
   line-height: 165px;
+  color: rgba(180, 180, 190, 1.0);
 }
 .footer a{
   color: rgba(180, 180, 190, 1.0);
