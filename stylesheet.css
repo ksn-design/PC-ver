@@ -1,0 +1,110 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div , video {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  color: rgb(26,25,25);
+  background: rgba(70, 70, 70);
+  width:100%;
+  z-index: -1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 10%;
+  white-space: nowrap;
+  color: #fff;
+}
+.clear{
+  clear: both;
+}
+
+.header{
+  height: 58px;
+  width: 100%;
+  background: rgba(80,80,90,0.8);
+  z-index: -1;
+}
+.container2{
+  width:84%;
+  margin: 0 auto;
+}
+.header-title{
+  background: #fff;
+  width:170px;
+  line-height: 58px;
+  float: left;
+}
+.header-title h2{
+  padding: 0 10px;
+}
+.header-right{
+  float: right;
+  line-height: 58px;
+}
+.header-right li{
+  float: left;
+  color: #fff;
+  padding: 0 15px;
+}
+.video-wrapper{
+  width: 100%;
+  z-index: -1;
+}
+video{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  z-index: -1;
+}
+.title-line{
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 170px;
+}
+.sidebar{
+  position: absolute;
+  top:58px;
+  width: 170px;
+  height: 855px;
+  margin-left: 8%;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: -1;
+}
+
+.title-line h1{
+  line-height: 170px;
+  color: #fff;
+}
+
+/* 以下opacity2以上　理由：line75 sidebarより */
+
+.footer{
+  height: 165px;
+  width: 100%;
+  z-index: 1;
+  background: rgba(70, 70, 70);
+}
+
+.footer li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  line-height: 165px;
+}
+.footer a{
+  color: rgba(180, 180, 190, 1.0);
+}
